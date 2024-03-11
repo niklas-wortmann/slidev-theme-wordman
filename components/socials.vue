@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 import { useMotions } from "@vueuse/motion";
 
-type Socials = { twitter: string, linkedin: {name: string, path: string}, github: string, animated?: boolean, homepage: string }
+type Socials = { twitter: string, linkedin: {name: string, path: string}, github: string, animated?: boolean, animationTime?: number, homepage: string }
 const props = defineProps<Socials>()
 
 const initial = {y:  100, opacity: 0};
@@ -15,7 +15,7 @@ setInterval(x => {
   } else {
     timer.value++
   }
-}, 5000) //30000
+}, props.animationTime ?? 30000)
 
 
 </script>
