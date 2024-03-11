@@ -10,7 +10,6 @@ Presentation slides for developers
   <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
-  <Socials twitter="niklas_wortmann" :linkedin="{name: 'Jan-Niklas Wortmann', path: 'jan-niklas-wortmann'}" github="niklas_wortmann" animated> </Socials>
 </div>
 
 ---
@@ -72,10 +71,8 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-layout: center
-class: "text-center"
 ---
 
 # Learn More
 
-[Documentations](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)
+<qrcode value="https://wordman.dev"> </qrcode>
