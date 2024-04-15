@@ -1,4 +1,4 @@
- ---
+---
 layout: image-left
 image: ./headshot.png
 ---
