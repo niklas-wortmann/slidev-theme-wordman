@@ -1,12 +1,7 @@
 <template>
-  <cover>
-    <div class="slidev-layout intro">
-      <div class="my-auto">
-        <slot />
-      </div>
+  <div class="slidev-layout intro">
+    <div class="my-auto">
+      <slot />
     </div>
-  </cover>
+  </div>
 </template>
-<script setup lang="ts">
-import Cover from "./cover.vue";
-</script>

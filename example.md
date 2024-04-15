@@ -78,7 +78,7 @@ function updateUser(id: number, update: Partial<User>) {
 <qrcode value="https://wordman.dev"> </qrcode>
 
 ---
-src: ./slides/intro.md
+layout: introduction
 ---
 
 ---
