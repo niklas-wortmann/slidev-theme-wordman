@@ -23,7 +23,9 @@
     "jetbrains-ide-themes": "0.0.5",
     "prism-theme-vars": "^0.2.4",
     "vue-demi": "0.14.7",
-    "qrcode.vue": "3.4.1"
+    "qrcode.vue": "3.4.1",
+    "onu-ui": "^1.0.14-beta.2"
+
   },
   "devDependencies": {
     "@slidev/cli": "^0.48.0-beta.22"
