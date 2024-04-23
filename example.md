@@ -85,3 +85,10 @@ layout: introduction
 layout: outro
 url: https://wordman.dev
 ---
+
+---
+layout: quote
+quote: Those who cannot remember the past are condemned to repeat it.
+image: ./george-santayana.jpg
+link: https://wordman.dev
+---

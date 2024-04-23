@@ -7,7 +7,10 @@
         <h1 class="self-center">{{props.quote}}</h1>
         <span class="self-end text-8xl">"</span>
       </div>
-      <span>{{props.author}}</span>
+      <div class="flex flex-col items-start">
+        <span>{{props.author}}</span>
+        <a v-if="link" :href="props.link" style="border: none">{{props.link}}</a>
+      </div>
     </div>
   </div>
 </template>
@@ -34,6 +37,10 @@ const props = defineProps({
     type: String,
     default: 'cover',
   },
+  link: {
+    type: String,
+    default: ""
+  }
 })
 
 const style = computed(() => handleBackground(props.image, true, props.backgroundSize))
