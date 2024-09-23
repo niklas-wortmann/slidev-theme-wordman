@@ -6,7 +6,7 @@ import {  computed } from 'vue'
 type Socials = { twitter: string, linkedin: {name: string, path: string}, github: string, animated?: boolean, homepage: string }
 const props = defineProps<Socials>()
 
-import {onSlideEnter, useNav, useSlideContext} from '@slidev/client'
+import {useNav} from '@slidev/client'
 
 
 // Add a reactive index to track the current social link
@@ -32,7 +32,7 @@ const currentIndex = computed(() => {
       <a :href="`${props.homepage}`"><mdi:home-circle-outline /> {{props.homepage}}</a>
     </div>
   </div>
-  <div v-else-if="$slidev.nav.currentPage !== 1">
+  <div v-else-if="currentSlideNo !== 1">
       <div v-if="props.twitter && currentIndex === 0">
         <a :href="`https://twitter.com/${props.twitter}`"><mdi:twitter /> @{{props.twitter}}</a>
       </div>
