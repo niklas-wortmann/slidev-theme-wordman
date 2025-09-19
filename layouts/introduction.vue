@@ -7,7 +7,7 @@
           <card title='Developer Advocate' imagePath='jbLogo.png' imageAlt='JetBrains Logo'></card>
           <card title='Core Team Member' imagePath='rxLogo.png' imageAlt='RxJS Logo'></card>
           <card title='GDE' imagePath='angularLogo.png' imageAlt='Angular Logo'></card>
-          <card title='Newsletter' imagePath='newsletterLogo.svg' imageAlt="The Weekly Dev's Brew Logo"></card>
+          <card title='Newsletter/Podcast' imagePath='newsletterLogo.svg' imageAlt="The Weekly Dev's Brew Logo"></card>
         </div>
       </div>    </div>
   </div>

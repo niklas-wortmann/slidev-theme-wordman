@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-wordman",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -18,17 +18,17 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "1.1.64",
-    "@slidev/types": "0.49.29",
+    "@slidev/types": "0.50.0",
     "codemirror-theme-vars": "^0.1.2",
     "jetbrains-ide-themes": "0.0.5",
     "prism-theme-vars": "^0.2.4",
     "vue-demi": "0.14.7",
     "qrcode.vue": "3.4.1",
-    "onu-ui": "^1.0.14-beta.2"
+    "onu-ui": "1.1.5"
 
   },
   "devDependencies": {
-    "@slidev/cli": "0.49.29"
+    "@slidev/cli": "0.50.0"
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
